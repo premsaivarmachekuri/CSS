@@ -5,6 +5,9 @@
 }
 .container{
     border: 2px dashed red;
+    border-top: 5px solid green;
+    border-left: 2px dashed yellow;
+    border-right: 10px dotted blue;
     font-size:1.5rem;
     padding:1em;
     margin: 1.5em 2em 2em;
