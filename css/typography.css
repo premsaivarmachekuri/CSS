@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+body{
+    padding:25%;
+}
+/* input, button{
+    font: inherit;
+} */
+h1,p{
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    font-family: 'Roboto', sans-serif;
+}
