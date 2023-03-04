@@ -18,5 +18,5 @@ ul ::marker{
     color:#000;
     font-family: fantasy;
     font-size: 1em;
-    content: "Only $5 >>";
+    /* content: "Only $5 >>"; can also keep font icons */
 }

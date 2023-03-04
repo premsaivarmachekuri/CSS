@@ -8,5 +8,6 @@ body{
 h1,p{
     line-height: 1.5;
     letter-spacing: 0.1em;
+    word-spacing: 1em;
     font-family: 'Roboto', sans-serif;
 }

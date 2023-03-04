@@ -4,10 +4,7 @@
     box-sizing:border-box;
 }
 .container{
-    border: 2px dashed red;
-    border-top: 5px solid green;
-    border-left: 2px dashed yellow;
-    border-right: 10px dotted blue;
+    border: 2px double red;
     font-size:1.5rem;
     padding:1em;
     margin: 1.5em 2em 2em;
@@ -15,4 +12,20 @@
     margin-right: 2em;
     margin-bottom: 2em;
     margin-left: 2em; */
+}
+.container:hover{
+    border-bottom: 10px double red;
+    border-right: 10px double red;
+    outline: 5px solid purple;
+    outline-offset: -20px;
+}
+.circle{
+    margin:3rem auto;
+    width:100px;
+    height: 100px;
+    background-color: gold;
+    border: 2px solid #000;
+    outline: 2px solid red;
+    outline-offset: 0.25rem;
+    border-radius: 50px;
 }
